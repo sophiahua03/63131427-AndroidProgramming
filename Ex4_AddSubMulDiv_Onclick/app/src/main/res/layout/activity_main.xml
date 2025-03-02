@@ -41,7 +41,7 @@
         android:padding="5dp">
 
         <TextView
-            android:id="@+id/edtSo2"
+
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="Số thứ hai"
@@ -49,6 +49,7 @@
             android:textSize="18dp" />
 
         <EditText
+            android:id="@+id/edtSo2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Mời nhập một con số ở đây"
@@ -68,25 +69,29 @@
             android:layout_margin="2dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="+" />
+            android:text="+"
+            android:onClick="XuLyCong"/>
         <Button
             android:id="@+id/btnTru"
             android:layout_margin="2dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="-" />
+            android:text="-"
+            android:onClick="XuLyTru"/>
         <Button
             android:id="@+id/btnNhan"
             android:layout_margin="2dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="x" />
+            android:text="x"
+            android:onClick="XuLyNhan"/>
         <Button
             android:id="@+id/btnChia"
             android:layout_margin="2dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=":" />
+            android:text=":"
+            android:onClick="XuLyChia"/>
 
 
     </LinearLayout>
