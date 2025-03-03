@@ -26,18 +26,25 @@ public class MainActivity extends AppCompatActivity {
         });
 
         btnSayHi = findViewById(R.id.btnSayHello);
-        btnSayHi.setOnClickListener(boLangNghe_XinChao);
+        //Tạo và gán bộ lắng nghe ẩn danh mà không cần khai báo biến
+        btnSayHi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this, "Hello World", Toast.LENGTH_LONG).show();
+            }
+        });
+
     }
 
     // 2.1 Listener in Variable
     // B1 + B2
-    View.OnClickListener boLangNghe_XinChao = new View.OnClickListener()
-    {
-        public void onClick (View v)
-        {
+    //View.OnClickListener boLangNghe_XinChao = new View.OnClickListener()
+    //{
+      //  public void onClick (View v)
+        //{
             // Example: hiện thông báo nhanh bằng lớp Toast
             // Toast.makeText(Ngữ_Cảnh, nội dung_thong_bao, thời gian hiện).show();
-            Toast.makeText(MainActivity.this, "Hello Class", Toast.LENGTH_SHORT).show();
-        }
-    };
+          //  Toast.makeText(MainActivity.this, "Hello Class", Toast.LENGTH_SHORT).show();
+        //}
+    //};
 }
