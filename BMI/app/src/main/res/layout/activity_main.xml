@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C1D8C3"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:id="@+id/centerVerticaLine"/>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/centerHorizontaLine"/>
+
+
+    <RelativeLayout
+        android:layout_width="340dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/centerVerticaLine"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/HeightLayout">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Chiều cao của bạn: "
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="165"
+            android:textSize="40sp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginBottom="50dp"
+            android:id="@+id/currentTheHeight">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cm"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@+id/currentTheHeight"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp">
+
+        </TextView>
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:progressTint="#FF4c4c"
+            android:layout_marginRight="10dp"
+            android:id="@+id/SeekBarForHeight">
+
+        </SeekBar>
+    </RelativeLayout>
+
+
+</RelativeLayout>
