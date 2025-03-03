@@ -7,10 +7,10 @@ Lưu các bài thực hành, bài tập và dự án trong việc học tập l�
 
 <img width="335" alt="Image" src="https://github.com/user-attachments/assets/b36fb411-e9ff-4774-8dbd-a877954ee2a5" />
 
-🎉 Bài tập BMI: Thực hành ứng dụng tính BMI
+🧐 Bài tập BMI: Thực hành ứng dụng tính BMI
 
 <img width="316" alt="Image" src="https://github.com/user-attachments/assets/1bfca7d9-70a9-4a36-8c5b-9d0145749280" />
 
-🎉 Bài tập Weather: Thực hành ứng dụng thời tiết (to be continue)
+🧐 Bài tập Weather: Thực hành ứng dụng thời tiết
 
 <img width="334" alt="Image" src="https://github.com/user-attachments/assets/48352e7d-59a2-4f4d-baad-0f8f63bcdaae" />
