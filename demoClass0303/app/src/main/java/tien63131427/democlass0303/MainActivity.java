@@ -11,7 +11,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Button btnSayHi;
 
     @Override
@@ -25,15 +25,20 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        btnSayHi = findViewById(R.id.btnSayHello);
-        //Tạo và gán bộ lắng nghe ẩn danh mà không cần khai báo biến
-        btnSayHi.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Hello World", Toast.LENGTH_LONG).show();
-            }
-        });
+//        btnSayHi = findViewById(R.id.btnSayHello);
+//        //Tạo và gán bộ lắng nghe ẩn danh mà không cần khai báo biến
+//        btnSayHi.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Toast.makeText(MainActivity.this, "Hello World", Toast.LENGTH_LONG).show();
+//            }
+//        });
 
+    }
+
+    @Override
+    public void onClick(View v) {
+        // ?? click lên nút nào, view nào ??
     }
 
     // 2.1 Listener in Variable
