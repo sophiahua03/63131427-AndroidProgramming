@@ -1,8 +1,12 @@
 # 63131427-AndroidProgramming
 Lưu các bài thực hành, bài tập và dự án trong việc học tập lập trình Android
+
 🎉 Bài tập 1: Thực hành bài Hello World đầu tiên trên Android Studio
+
 🎉 Bài tập 2: Thực hành tạo bố cục tuyến tính
+
 🎉 Bài tập 3: Thực hành ứng dụng cơ bản của phép cộng
+
 🎉 Bài tập 4: Thực hành ứng dụng của các phép tính
 
 <img width="335" alt="Image" src="https://github.com/user-attachments/assets/b36fb411-e9ff-4774-8dbd-a877954ee2a5" />
