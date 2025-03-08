@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
     View.OnClickListener XuLyCong = new View.OnClickListener() {
         @Override
-        public void onClick(View v) {
+        public void onClick(View view) {
             String so1 = editTextSo1.getText().toString();
             String so2 = editTextSo2.getText().toString();
             float num1 = Float.parseFloat(so1);
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
     };
     View.OnClickListener XuLyTru = new View.OnClickListener() {
         @Override
-        public void onClick(View v) {
+        public void onClick(View view) {
             String so1 = editTextSo1.getText().toString();
             String so2 = editTextSo2.getText().toString();
             float num1 = Float.parseFloat(so1);
@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
     };
     View.OnClickListener XuLyNhan = new View.OnClickListener() {
         @Override
-        public void onClick(View v) {
+        public void onClick(View view) {
             String so1 = editTextSo1.getText().toString();
             String so2 = editTextSo2.getText().toString();
             float num1 = Float.parseFloat(so1);
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
     };
     View.OnClickListener XuLyChia = new View.OnClickListener() {
         @Override
-        public void onClick(View v) {
+        public void onClick(View view) {
             String so1 = editTextSo1.getText().toString();
             String so2 = editTextSo2.getText().toString();
             float num1 = Float.parseFloat(so1);
