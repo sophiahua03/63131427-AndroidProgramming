@@ -30,7 +30,7 @@ public class MH3Activity extends AppCompatActivity {
         nutMain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentMain = new Intent(MH3Activity.this, MH2Activity.class);
+                Intent intentMain = new Intent(MH3Activity.this, MainActivity.class);
                 startActivity(intentMain);
             }
         });
