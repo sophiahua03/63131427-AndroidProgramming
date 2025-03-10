@@ -3,6 +3,7 @@ package tien63131427.bmi;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,28 +11,28 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity {
+public class bmiactivity extends AppCompatActivity {
 
-    android.widget.Button mcalculatebmi;
+    android.widget.Button mrecalculatebmi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_bmiactivity);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
         getSupportActionBar().hide();
-        mcalculatebmi = findViewById(R.id.CalculatedBMI);
-        mcalculatebmi.setOnClickListener(new View.OnClickListener() {
+        mrecalculatebmi = findViewById(R.id.recalculatedBMI);
+        mrecalculatebmi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, bmiactivity.class);
+                Intent intent = new Intent(bmiactivity.this, MainActivity.class);
                 startActivity(intent);
-
+                finish();
             }
         });
     }
