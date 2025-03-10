@@ -44,32 +44,36 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/logo"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:text="QUIZ 1"
-            android:textStyle="bold"
-            android:layout_margin="10dp"
-            android:textSize="20dp"/>
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:text="QUIZ 2"
-            android:layout_margin="10dp"
-            android:textStyle="bold"
-            android:textSize="20dp"/>
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="QUIZ 3"
-            android:textStyle="bold"
             android:layout_margin="10dp"
-            android:textSize="20dp"/>
+            android:text="QUIZ 3"
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
