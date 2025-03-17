@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TriangleActivity"
+    android:padding="30dp">
+
+    <EditText
+        android:id="@+id/etTriangleA"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nhập cạnh A"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etTriangleB"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nhập cạnh B"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etTriangleC"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nhập cạnh C"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnTriangleCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tính toán" />
+
+    <TextView
+        android:id="@+id/tvTriangleResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kết quả sẽ hiển thị ở đây"
+        android:textSize="18sp"
+        android:gravity="center" />
+
+</LinearLayout>
