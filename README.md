@@ -9,15 +9,15 @@ Lưu các bài thực hành, bài tập và dự án trong việc học tập l�
 
 🎉 Bài tập 4: Thực hành ứng dụng của các phép tính
 
-<img width="335" alt="Image" src="https://github.com/user-attachments/assets/b36fb411-e9ff-4774-8dbd-a877954ee2a5" />
+<img width="326" alt="Image" src="https://github.com/user-attachments/assets/b36fb411-e9ff-4774-8dbd-a877954ee2a5" />
 
 🎉 Bài tập 5.1: Thực hành áp dụng bộ lắng nghe ẩn danh trong ứng dụng các phép tính
 
-<img width="213" alt="Image" src="https://github.com/user-attachments/assets/7cf47913-20b4-4239-8f3b-82c18adddcbd" />
+<img width="326" alt="Image" src="https://github.com/user-attachments/assets/7cf47913-20b4-4239-8f3b-82c18adddcbd" />
 
 🎉 Bài tập 5.2: Thực hành áp dụng bộ lắng nghe trong ứng dụng các phép tính
 
-<img width="311" alt="Image" src="https://github.com/user-attachments/assets/7e5ee09d-4bae-4cc8-98e3-818f8b2bdeeb" />
+<img width="326" alt="Image" src="https://github.com/user-attachments/assets/7e5ee09d-4bae-4cc8-98e3-818f8b2bdeeb" />
 
 🎉 Bài tập: Tạo giao diện Log In dựa trên trang web: https://androidknowledge.com/login-page-in-android-studio/
 
@@ -26,13 +26,13 @@ Lưu các bài thực hành, bài tập và dự án trong việc học tập l�
 
 🎉 Bài tập: Tạo bài giao diện Modern Dashboard dựa trên trang web: https://androidknowledge.com/modern-material-dashboard-android-studio/
 
-<img width="199" alt="Image" src="https://github.com/user-attachments/assets/e8707d5f-5333-43bb-80e7-4c1597a1a6e1" />
-<img width="199" alt="Image" src="https://github.com/user-attachments/assets/e50d60fe-8261-42dc-b81c-2455462c885d" />
+<img width="326" alt="Image" src="https://github.com/user-attachments/assets/e8707d5f-5333-43bb-80e7-4c1597a1a6e1" />
+<img width="326" alt="Image" src="https://github.com/user-attachments/assets/e50d60fe-8261-42dc-b81c-2455462c885d" />
 
 🧐 Bài tập BMI: Thực hành ứng dụng tính BMI (Giao diện)
 
-<img width="316" alt="Image" src="https://github.com/user-attachments/assets/1bfca7d9-70a9-4a36-8c5b-9d0145749280" />
+<img width="200" alt="Image" src="https://github.com/user-attachments/assets/1bfca7d9-70a9-4a36-8c5b-9d0145749280" />
 
 🧐 Bài tập Weather: Thực hành ứng dụng thời tiết (Giao diện)
 
-<img width="334" alt="Image" src="https://github.com/user-attachments/assets/48352e7d-59a2-4f4d-baad-0f8f63bcdaae" />
+<img width="200" alt="Image" src="https://github.com/user-attachments/assets/48352e7d-59a2-4f4d-baad-0f8f63bcdaae" />
