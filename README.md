@@ -27,6 +27,7 @@ Lưu các bài thực hành, bài tập và dự án trong việc học tập l�
 🎉 Bài tập: Tạo bài giao diện Modern Dashboard dựa trên trang web: https://androidknowledge.com/modern-material-dashboard-android-studio/
 
 <img width="199" alt="Image" src="https://github.com/user-attachments/assets/e8707d5f-5333-43bb-80e7-4c1597a1a6e1" />
+<img width="199" alt="Image" src="https://github.com/user-attachments/assets/e50d60fe-8261-42dc-b81c-2455462c885d" />
 
 🧐 Bài tập BMI: Thực hành ứng dụng tính BMI (Giao diện)
 
