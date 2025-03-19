@@ -15,9 +15,18 @@ Lưu các bài thực hành, bài tập và dự án trong việc học tập l�
 
 <img width="213" alt="Image" src="https://github.com/user-attachments/assets/7cf47913-20b4-4239-8f3b-82c18adddcbd" />
 
-🎉 BÀi tập 5.2: Thực hành áp dụng bộ lắng nghe trong ứng dụng các phép tính
+🎉 Bài tập 5.2: Thực hành áp dụng bộ lắng nghe trong ứng dụng các phép tính
 
 <img width="311" alt="Image" src="https://github.com/user-attachments/assets/7e5ee09d-4bae-4cc8-98e3-818f8b2bdeeb" />
+
+🎉 Bài tập: Tạo giao diện Log In dựa trên trang web: https://androidknowledge.com/login-page-in-android-studio/
+
+<img width="326" alt="Image" src="https://github.com/user-attachments/assets/a3f87c2e-653c-42bf-b8cb-3fb7f01275bc" />
+<img width="326" alt="Image" src="https://github.com/user-attachments/assets/8e456f36-c9e1-46ec-9acf-deb3d574e3ce" />
+
+🎉 Bài tập: Tạo bài giao diện Modern Dashboard dựa trên trang web: https://androidknowledge.com/modern-material-dashboard-android-studio/
+
+<img width="199" alt="Image" src="https://github.com/user-attachments/assets/e8707d5f-5333-43bb-80e7-4c1597a1a6e1" />
 
 🧐 Bài tập BMI: Thực hành ứng dụng tính BMI (Giao diện)
 
