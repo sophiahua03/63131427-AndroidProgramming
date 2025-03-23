@@ -11,8 +11,8 @@
     <View
         android:id="@+id/view"
         android:layout_width="204dp"
-        android:layout_height="229dp"
-        android:layout_marginTop="540dp"
+        android:layout_height="234dp"
+        android:layout_marginTop="624dp"
         android:layout_marginEnd="247dp"
         android:background="@drawable/ellipsenine"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,7 +24,7 @@
         android:id="@+id/view2"
         android:layout_width="181dp"
         android:layout_height="192dp"
-        android:layout_marginTop="236dp"
+        android:layout_marginTop="312dp"
         android:layout_marginEnd="184dp"
         android:background="@drawable/box"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,10 +32,10 @@
 
     <View
         android:id="@+id/view3"
-        android:layout_width="179dp"
-        android:layout_height="412dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="276dp"
+        android:layout_width="181dp"
+        android:layout_height="425dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="356dp"
         android:background="@drawable/frame"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -48,14 +48,26 @@
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="@+id/view2"
         app:layout_constraintTop_toTopOf="@+id/view2"
-        app:layout_constraintVertical_bias="0.396"
+        app:layout_constraintVertical_bias="0.439"
         app:layout_wrapBehaviorInParent="included" />
 
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/adlam_display"
+        android:text="KIDS Corners"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/view2"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <View
-        android:layout_width="219dp"
-        android:layout_height="231dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="204dp"
+        android:layout_height="219dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="36dp"
         android:background="@drawable/polygonone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -66,18 +78,6 @@
         android:background="@drawable/ellipseten"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:layout_width="200dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginBottom="8dp"
-        android:fontFamily="@font/adlam_display"
-        android:text="KIDS Corners"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/view2"
-        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

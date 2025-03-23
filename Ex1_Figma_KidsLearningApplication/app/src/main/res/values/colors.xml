@@ -2,4 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="purple_violet"> #E4C9F9 </color>
+    <color name="yellow"> #FFE99D</color>
+    <color name="green_mint">#AAF1CB</color>
+    <color name="grey">#C5CFD6</color>
+    <color name="blue_sky">#C2DEFF</color>
+    <color name="lightPurple">#E9E9FF</color>
+    <color name="lightGrey">#ECEEF1</color>
 </resources>
