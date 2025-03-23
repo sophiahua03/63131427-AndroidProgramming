@@ -92,6 +92,7 @@
             app:cardCornerRadius="20dp">
 
             <TextView
+                android:id="@+id/EnglishText"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:paddingLeft="5dp"
@@ -114,7 +115,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:fontFamily="@font/srisakdi_bold"
-                android:paddingLeft="20dp"
+                android:paddingLeft="25dp"
                 android:paddingTop="25dp"
                 android:text="India"
                 android:textColor="#789DBC"
@@ -138,19 +139,39 @@
         <androidx.cardview.widget.CardView
             android:layout_width="173dp"
             android:layout_height="match_parent"
-            app:cardBackgroundColor="#E3F0AF"
+            app:cardBackgroundColor="#FF8A8A"
             app:cardCornerRadius="20dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:paddingLeft="5dp"
+                android:fontFamily="@font/ole"
+                android:paddingLeft="25dp"
                 android:paddingTop="50dp"
-                android:text="English"
-                android:textColor="#62825D"
-                android:textSize="50sp"
+                android:text="French"
+                android:textColor="#FFE2E2"
+                android:textSize="60sp"
                 android:textStyle="bold" />
 
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="173dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            app:cardBackgroundColor="#FFFBDA"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/qwigley"
+                android:paddingLeft="25dp"
+                android:paddingTop="45dp"
+                android:text="Spanish"
+                android:textColor="#FFDD95"
+                android:textSize="70sp"
+                android:textStyle="bold" />
         </androidx.cardview.widget.CardView>
     </LinearLayout>
 
