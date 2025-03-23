@@ -8,6 +8,7 @@
     tools:context=".HomepageActivity">
 
     <TextView
+        android:paddingTop="20dp"
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -55,11 +56,11 @@
         android:layout_width="358dp"
         android:layout_height="160dp"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="28dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
@@ -67,7 +68,7 @@
             android:layout_width="169dp"
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
-            app:cardBackgroundColor="#7AF55454"
+            app:cardBackgroundColor="@color/lightPink"
             app:cardCornerRadius="10dp">
 
             <TextView
@@ -146,7 +147,7 @@
         android:layout_width="358dp"
         android:layout_height="160dp"
         android:layout_marginStart="26dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="27dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -235,7 +236,7 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_marginStart="26dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="27dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -273,7 +274,7 @@
         android:layout_width="358dp"
         android:layout_height="80dp"
         android:layout_marginStart="26dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="27dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -312,9 +313,9 @@
             android:layout_width="169dp"
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
             app:cardBackgroundColor="@color/blue_sky"
-            app:cardCornerRadius="10dp"
-            android:layout_marginLeft="20dp">
+            app:cardCornerRadius="10dp">
 
             <TextView
                 android:id="@+id/Rhymes"
