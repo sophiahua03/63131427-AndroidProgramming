@@ -31,7 +31,7 @@
     </LinearLayout>
 
     <View
-        android:id="@+id/view"
+        android:id="@+id/btnHome"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="315dp"
@@ -51,7 +51,7 @@
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view">
+        app:layout_constraintTop_toBottomOf="@+id/btnHome">
 
         <TextView
             android:layout_width="wrap_content"
@@ -145,12 +145,12 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:fontFamily="@font/ole"
+                android:fontFamily="@font/ballet"
                 android:paddingLeft="25dp"
                 android:paddingTop="50dp"
                 android:text="French"
                 android:textColor="#FFE2E2"
-                android:textSize="60sp"
+                android:textSize="40sp"
                 android:textStyle="bold" />
 
         </androidx.cardview.widget.CardView>

@@ -1,6 +1,8 @@
 package Tien63131427.mathsapp;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,6 +12,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class CountActivity extends AppCompatActivity {
 
+    View btnhome;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,6 +22,16 @@ public class CountActivity extends AppCompatActivity {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
+        });
+
+        btnhome = (View) findViewById(R.id.btnHome);
+
+        btnhome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentHome = new Intent(CountActivity.this, MainActivity.class);
+                startActivity(intentHome);
+            }
         });
     }
 }
