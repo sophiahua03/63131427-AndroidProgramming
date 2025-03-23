@@ -155,26 +155,26 @@
             android:layout_width="164dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="40dp"
-            android:backgroundTint="#CAEDFF"
+            android:backgroundTint="#FFF4CF"
             app:cardCornerRadius="15dp">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginTop="15dp"
-                android:background="@drawable/settings"
-                android:backgroundTint="#ffffff"
+                android:layout_width="53dp"
+                android:layout_height="66dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/set"
+                android:backgroundTint="#FFB200"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
+                android:layout_marginLeft="20dp"
                 android:layout_marginTop="100dp"
-                android:text="Match"
-                android:textColor="#1D5D9B"
+                android:text="Settings"
+                android:textColor="#FFB200"
                 android:textSize="40dp"
                 android:textStyle="bold" />
 
