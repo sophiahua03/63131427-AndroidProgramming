@@ -1,12 +1,14 @@
 package Tien63131427.ex_usingrecyclerview;
 
 import android.os.Bundle;
+import android.widget.GridLayout;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -31,8 +33,15 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerViewDatas = getDataForRecyclerView();
         recyclerViewLandscape = findViewById(R.id.recyclerLand);
-        RecyclerView.LayoutManager layoutLinear = new LinearLayoutManager(this);
-        recyclerViewLandscape.setLayoutManager(layoutLinear);
+//        RecyclerView.LayoutManager layoutLinear = new LinearLayoutManager(this);
+//        recyclerViewLandscape.setLayoutManager(layoutLinear);
+
+//        RecyclerView.LayoutManager layoutLinearHorizonal = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL,false);
+//        recyclerViewLandscape.setLayoutManager(layoutLinearHorizonal);
+
+        RecyclerView.LayoutManager layoutGrid = new GridLayoutManager(this,2);
+        recyclerViewLandscape.setLayoutManager(layoutGrid);
+
         landScapeAdapter = new LandScapeAdapter(this, recyclerViewDatas);
         recyclerViewLandscape.setAdapter(landScapeAdapter);
     }
