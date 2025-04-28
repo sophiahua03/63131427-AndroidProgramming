@@ -1,5 +1,6 @@
 package Tien63131427.ex_bottomnavigtiondemo;
 
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -23,6 +24,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
+
+        //1. Tạo DB openOrCreateDatabase(tên file csdl, quyền truy cập, null)
+        SQLiteDatabase csdl = openOrCreateDatabase("QuanLySach db",MODE_PRIVATE,null);
+
+        //
 
         bottmNav = findViewById(R.id.bot_nav);
         bottmNav.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
