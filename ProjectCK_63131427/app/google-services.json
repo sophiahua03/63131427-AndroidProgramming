@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "191348207666",
+    "project_id": "thuvienkynangmem",
+    "storage_bucket": "thuvienkynangmem.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191348207666:android:c21bd592d407249ed44c2b",
+        "android_client_info": {
+          "package_name": "Tien63131427.projectck_63131427"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVLDr_37xpHAbwC60oQEfrtLxFX7YK02Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
